@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conversion Calculator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="top" class="container">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="convert-input" type="text">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div id="main" class="container"> 
+            <div id="length" class="group">
+                <h2>Length (Meter/Feet)</h2>
+                <h3 id="meters-feet">0 meters = 0 feet | 0 feet = 0 meters</h3>
+            </div>
+            <div id="volume" class="group">
+                <h2>Volume (Liters/Gallons)</h2>
+                <h3 id="liters-gallons">0 liters = 0 gallons | 0 gallons = 0 liters</h3>
+            </div>
+            <div id="mass" class="group">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <h3 id="kilo-pound">0 kilos = 0 pounds | 0 pounds = 0 kilos</h3>
+            </div>
+            <script src="index.js"></script>
+        </div>  
+    </body>
+</html>
